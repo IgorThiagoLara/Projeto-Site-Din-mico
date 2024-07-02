@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+}
+
+.corpo_logo {
+    background-color: #B12323;
+    text-align: center;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.imagem_logo {
+    width: 330px;
+    height: 240px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.imagem_logo:hover {
+    opacity: 90%;
+}
+
+
+.menu_container {
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    
+}
+
+.menu_lista {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.menu_link {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.menu_link:hover {
+    color: rgb(160, 159, 159);
+}
